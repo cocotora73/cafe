@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>森のカフェ</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header id="header"> 
+        <div class="page-header">
+            <div class="nav-fixed">
+                <h1 class="cafe-name"><a href="#">森のカフェ</a></h1>
+                <nav>
+                    <ul class="cafe-nav-fixed">
+                        <li><a href="#concept">CONCEPT</a></li>
+                        <li><a href="#menu">MENU</a></li>
+                        <li><a href="#news">NEWS</a></li>
+                        <li><a href="#access">ACCESS</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="cafe-main">
+            <div class="nav-hidden">
+                <div class="nav-fixed2">
+                    <h1 class="cafe-name"><a href="#">森のカフェ</a></h1>               
+                    <button class="mobile-menu__btn">
+                        <span class="js-span"></span>
+                        <span class="js-span"></span>
+                        <span class="js-span"></span>
+                    </button>               
+                </div>
+                <nav class="nav-down">
+                    <ul class="cafe-nav-fixed">
+                        <li><a href="#concept">CONCEPT</a></li>
+                        <li><a href="#menu">MENU</a></li>
+                        <li><a href="#news">NEWS</a></li>
+                        <li><a href="#access">ACCESS</a></li>
+                    </ul>
+                </nav>           
+            </div>
+            <h1 class="cafe-title">森のカフェ</h1>
+            <p class="cafe-read">緑に囲まれたこの場所で、美味しいコーヒーと共に癒されてください</p>
+            <div class="slideshow">
+                <div class="slideshow-slides">
+                    <div class="slide"><img src="img/slide-img1.jpg" alt=""></div>
+                    <div class="slide"><img src="img/slide-img2.jpg" alt=""></div>
+                    <div class="slide"><img src="img/slide-img3.jpg" alt=""></div>
+                    <div class="slide"><img src="img/slide-img4.jpg" alt=""></div>
+                    <ul class="cafe-nav">
+                        <li><a href="#concept">CONCEPT</a></li>
+                        <li><a href="#menu">MENU</a></li>
+                        <li><a href="#news">NEWS</a></li>
+                        <li><a href="#access">ACCESS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="page-top">
+        <a href="#">PAGE TOP</a>
+    </div>
+
+    <section class="nav-target">
+        <div id="concept">
+            <div class="concept-wrap wrap">
+                <h2 class="section-title section-concept">CONCEPT</h2>
+                <h3 class="concept-title">みんなが笑顔になれる不思議なカフェ</h3>
+                <div class="concept-read">
+                    緑や花に囲まれた、誰が来てもほっこりした気持ちになれる森のカフェ。
+                    緑や花に囲まれた、誰が来てもほっこりした気持ちになれる森のカフェ。
+                    緑や花に囲まれた、誰が来てもほっこりした気持ちになれる森のカフェ。
+                    緑や花に囲まれた、誰が来てもほっこりした気持ちになれる森のカフェ。
+                    緑や花に囲まれた、誰が来てもほっこりした気持ちになれる森のカフェ。
+                    緑や花に囲まれた、誰が来てもほっこりした気持ちになれる森のカフェ。
+                </div>
+            </div>       
+        </div>
+
+        <div id="menu" class="menu wrap">
+            <header>           
+                <h2 class="section-title section-menu">MENU</h2> 
+                <ul class="tabs-nav">
+                    <li><a href="#menu1">morning</a></li>
+                    <li><a href="#menu2">lunch</a></li>
+                    <li><a href="#menu3">dessert</a></li>
+                    <li><a href="#menu4">drink</a></li>
+                </ul>
+            </header>
+            <div class="section-body">
+                <section class="tabs-panel" id="menu1">
+                    <div class="morning">
+                        <div class="time_txt">モーニング-9:00~11:00</div>
+                        <div class="menu-wrap">
+                            <div class="menu-contents">
+                                <img src="img/morningA.jpg" alt="" class="morning-img">
+                                <div class="menu-name">モーニングセットA</div>
+                                <div class="morning-menu">トースト / ゆで卵 / サラダ・フルーツ / ドリンク</div>
+                                <div class="price">400円</div>
+                            </div>
+                            <div class="menu-contents">
+                                <img src="img/morninngB.jpg" alt="" class="morning-img">
+                                <div class="menu-name">モーニングセットB</div>
+                                <div class="morning-menu">サンドイッチ / ゆで卵 / サラダ・フルーツ / ドリンク</div>
+                                <div class="price">450円</div>
+                            </div>
+                            <div class="menu-contents">
+                                <img src="img/morningC.jpg" alt="" class="morning-img">
+                                <div class="menu-name">モーニングセットC</div>
+                                <div class="morning-menu">ホットサンド / ゆで卵 / サラダ・フルーツ / ドリンク</div>
+                                <div class="price">450円</div>
+                            </div>
+                            <div class="menu-contents">
+                                <img src="img/morningD.jpg" alt="" class="morning-img">
+                                <div class="menu-name">ハンバーガーセット</div>
+                                <div class="morning-menu">オリジナルバーガー / サラダ・フルーツ / ドリンク</div>
+                                <div class="price">500円</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="tabs-panel" id="menu2">
+                    <div class="lunch">
+                        <div class="time_txt">ランチ-11:00~15:00</div>
+                        <div class="menu-wrap2">
+                            <div class="menu-contents">
+                                <img src="img/lunch1.jpg" alt="" class="lunch-img">
+                                <div class="menu-name">パスタ</div>
+                                <div class="lunch-menu">
+                                    テキストテキストテキストテキストテキストテキスト
+                                    テキストテキストテキストテキストテキストテキスト
+                                </div>
+                                <div class="price">780円</div>
+                            </div>
+                            <div class="menu-contents">
+                                <img src="img/lunch2.jpg" alt="" class="lunch-img" >
+                                <div class="menu-name">ステーキ</div>
+                                <div class="lunch-menu">
+                                    テキストテキストテキストテキストテキストテキスト
+                                    テキストテキストテキストテキストテキストテキスト
+                                </div>
+                                <div class="price">1,200円</div>
+                            </div>
+                            <div class="menu-contents">
+                                <img src="img/lunch3.jpg" alt="" class="lunch-img">
+                                <div class="menu-name">ピザ</div>
+                                <div class="lunch-menu">
+                                    テキストテキストテキストテキストテキストテキスト
+                                    テキストテキストテキストテキストテキストテキスト
+                                </div>
+                                <div class="price">600円</div>
+                            </div>
+                            <div class="menu-contents">
+                                <img src="img/lunch4.jpg" alt="" class="lunch-img">
+                                <div class="menu-name">カレー</div>
+                                <div class="lunch-menu">
+                                    テキストテキストテキストテキストテキストテキスト
+                                    テキストテキストテキストテキストテキストテキスト
+                                </div>
+                                <div class="price">800円</div>
+                            </div>
+                            <div class="menu-contents">
+                                <img src="img/lunch5.jpg" alt="" class="lunch-img">
+                                <div class="menu-name">オムライス</div>
+                                <div class="lunch-menu">
+                                    テキストテキストテキストテキストテキストテキスト
+                                    テキストテキストテキストテキストテキストテキスト
+                                </div>
+                                <div class="price">650円</div>
+                            </div>
+                            <div class="menu-contents">
+                                <img src="img/lunch6.jpg" alt="" class="lunch-img">
+                                <div class="menu-name">サラダ</div>
+                                <div class="lunch-menu">
+                                    テキストテキストテキストテキストテキストテキスト
+                                    テキストテキストテキストテキストテキストテキスト
+                                </div>
+                                <div class="price">500円</div>
+                            </div>                               
+                            </div>
+                        </div> 
+                        <div class="menu-contents2">
+                            <img src="img/lunch7.jpg" alt="" class="lunch-img2">
+                            <div class="seasonal">
+                                <div class="menu-name">季節限定おすすめランチ</div>
+                                <div class="lunch-menu season-menu">
+                                    テキストテキストテキストテキストテキストテキスト
+                                    テキストテキストテキストテキストテキストテキスト
+                                    テキストテキストテキストテキストテキストテキスト
+                                    テキストテキストテキストテキストテキストテキスト
+                                </div>
+                            <div class="price">1200円</div>
+                        </div>        
+                    </div>
+                </section>
+                <section class="tabs-panel" id="menu3">
+                    <div class="dessert">
+                        <div class="menu-title">デザートメニュー</div>
+                        <div class="menu-wrap">
+                            <div class="menu-contents">
+                                <img src="img/dessert1.jpg" alt="" class="dessert-img">
+                                <div class="menu-name">チーズケーキ</div>
+                                <div class="price">400円</div>
+                            </div>
+                            <div class="menu-contents">
+                                <img src="img/dessert2.jpg" alt="" class="dessert-img">
+                                <div class="menu-name">ガトーショコラ</div>
+                                <div class="price">500円</div>
+                            </div>
+                            <div class="menu-contents">
+                                <img src="img/dessert3.jpg" alt="" class="dessert-img">
+                                <div class="menu-name">ホットケーキ</div>
+                                <div class="price">450円</div>
+                            </div>
+                            <div class="menu-contents">
+                                <img src="img/dessert4.jpg" alt="" class="dessert-img">
+                                <div class="menu-name">季節限定パフェ</div>
+                                <div class="price">750円</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="tabs-panel" id="menu4">
+                    <div class="drink">
+                        <div class="menu-title">ドリンクメニュー</div>
+                        <div class="drink-wrap">
+                            <div class="drink-menu">
+                                <div class="drink_txt">COFFEE</div>
+                                <div class="flex">
+                                    <ul class="drink-li">
+                                        <li>ホットコーヒー ￥400</li>
+                                        <li>アイスコーヒー ￥400</li>
+                                        <li>カフェラテ ￥500</li>
+                                        <li>カプチーノ ￥500</li>
+                                    </ul>
+                                    <div class="grid grid-4">
+                                        <img src="img/coffee1.jpg" alt="">
+                                        <img src="img/coffee2.jpg" alt="">
+                                        <img src="img/coffee3.jpg" alt="">
+                                        <img src="img/coffee4.jpg" alt="">
+                                    </div>     
+                                </div>                                                          
+                            </div>      
+                            <div class="drink-menu">
+                                <div class="drink_txt">TEA</div>
+                                <div class="flex">
+                                    <ul class="drink-li">
+                                        <li>アールグレイ ￥350</li>
+                                        <li>ダージリン ￥450</li>
+                                        <li>アッサム ￥450</li>
+                                    </ul>
+                                    <div class="grid grid-3">
+                                        <img src="img/tea1.jpg" alt="">
+                                        <img src="img/tea2.jpg" alt="">
+                                        <img src="img/tea3.jpg" alt="">
+                                    </div>         
+                                </div>                                                     
+                            </div>
+                            <div class="drink-menu">
+                                <div class="drink_txt">SOFT DRINKS</div>
+                                <div class="flex">
+                                    <ul class="drink-li">
+                                        <li>オレンジジュース ￥350</li>
+                                        <li>リンゴジュース ￥350</li>
+                                        <li>クリームソーダ ￥450</li>
+                                        <li>ミックスジュース ￥500</li>
+                                    </ul>
+                                    <div class="grid grid-4">
+                                        <img src="img/softdrink1.jpg" alt="">
+                                        <img src="img/softdrink2.jpg" alt="">
+                                        <img src="img/softdrink3.jpg" alt="">
+                                        <img src="img/softdrink4.jpg" alt="">
+                                    </div>   
+                                </div>                                 
+                            </div>
+                        </div> 
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div id="news" class="wrap">
+            <h2 class="section-title section-news">NEWS</h2>
+            <div class="news-grid">
+                <div class="news">                
+                    <div class="news-photo">
+                        <a href="#"><img src="img/news.jpg" alt=""></a>
+                    </div>
+                    <div class="news-cate">
+                        <p>2022.10.22</p>
+                        <p>NEWS</p>
+                    </div>
+                    <div class="news-title">
+                        <h3>タイトル</h3>
+                        <p>
+                            テキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキスト 
+                        </p>
+                        <a href="#">続きを読む</a>
+                    </div>                   
+                </div>
+                <div class="news">                   
+                    <div class="news-photo">
+                        <a href="#"><img src="img/news.jpg" alt=""></a>
+                    </div>
+                    <div class="news-cate">
+                        <p>2022.10.22</p>
+                        <p>NEWS</p>
+                    </div>
+                    <div class="news-title">
+                        <h3>タイトル</h3>
+                        <p>
+                            テキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキスト 
+                        </p>
+                        <a href="#">続きを読む</a>
+                    </div>                    
+                </div>
+                <div class="news">                   
+                    <div class="news-photo">
+                        <a href="#"><img src="img/news.jpg" alt=""></a>
+                    </div>
+                    <div class="news-cate">
+                        <p>2022.10.22</p>
+                        <p>NEWS</p>
+                    </div>
+                    <div class="news-title">
+                        <h3>タイトル</h3>
+                        <p>
+                            テキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキスト 
+                        </p>
+                        <a href="#">続きを読む</a>
+                    </div>                    
+                </div>
+                <div class="news">                   
+                    <div class="news-photo">
+                        <a href="#"><img src="img/news.jpg" alt=""></a>
+                    </div>
+                    <div class="news-cate">
+                        <p>2022.10.22</p>
+                        <p>NEWS</p>
+                    </div>
+                    <div class="news-title">
+                        <h3>タイトル</h3>
+                        <p>
+                            テキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキスト 
+                        </p>
+                        <a href="#">続きを読む</a>
+                    </div>                    
+                </div>
+            </div>
+            <div class="arrow-btn">
+                <a href="#" class="arrow_r">もっと見る</a>
+            </div>
+        </div>
+        <div id="access" class="wrap">
+            <h2>ACCESS</h2>
+            <div class="access-wrap">
+                 <div class="location-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.41068085601047!2d133.5414565152624!3d33.567227080740665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354e194acd391f23%3A0x9d10fd4f83ae2d4!2z6auY55-l6aeF!5e0!3m2!1sja!2sjp!4v1659391450764!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="box-info">
+                    <dl>
+                        <dt>屋号</dt>
+                        <dd>森のカフェ</dd>
+                        <dt>住所</dt>
+                        <dd>
+                            〒000-0000
+                        </dd>
+                        <dd>
+                            高知県高知市〇〇町0-0
+                        </dd>
+                        <dt>アクセス</dt>
+                        <dd>高知駅より徒歩5分</dd>
+                        <dt>営業時間</dt>
+                        <dd>
+                            9:00〜18:00
+                        </dd>
+                        <dt>定休日</dt>
+                        <dd>水曜日</dd>
+                        <dt>カード</dt>
+                        <dd>可 (VISA、Master、JSB、AMEX)</dd>
+                        <dt>TEL</dt>
+                        <dd>000-000-0000</dd>
+                    </dl>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="wrap">
+            <p><small>&copy</small>2022 Mori Cafe</p>
+        </div>
+
+    </footer>
+   <script src="js/main.js"></script>
+</body>
+</html>
